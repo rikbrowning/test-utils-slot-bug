@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Broken.vue renders props.msg when passed 1`] = `
+<fakecomponent-stub>
+  <div>
+    default slot of fake component
+  </div>
+</fakecomponent-stub>
+`;

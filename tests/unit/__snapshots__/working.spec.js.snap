@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Working.vue renders props.msg when passed 1`] = `
+<fakecomponent-stub>
+  <testcomponent-stub msg="new message">
+    <div>
+      default slot of test component
+    </div>
+  </testcomponent-stub>
+  <div>
+    default slot of fake component
+  </div>
+</fakecomponent-stub>
+`;
