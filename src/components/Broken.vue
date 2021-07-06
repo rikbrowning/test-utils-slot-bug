@@ -7,9 +7,11 @@
         </div>
       </TestComponent>
     </template>
-    <div>
-      default slot of fake component
-    </div>
+    <template v-slot:default>
+      <div>
+        default slot of fake component
+      </div>
+    </template>
   </FakeComponent>
 </template>
 
