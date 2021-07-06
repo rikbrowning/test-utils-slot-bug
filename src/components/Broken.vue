@@ -1,18 +1,20 @@
 <template>
-  <FakeComponent>
-    <template v-slot:test>
-      <TestComponent :msg="msg">
+  <div class="some-wrapper">
+    <FakeComponent>
+      <template v-slot:test>
+        <TestComponent :msg="msg">
+          <div>
+            default slot of test component
+          </div>
+        </TestComponent>
+      </template>
+      <template v-slot:default>
         <div>
-          default slot of test component
+          default slot of fake component
         </div>
-      </TestComponent>
-    </template>
-    <template v-slot:default>
-      <div>
-        default slot of fake component
-      </div>
-    </template>
-  </FakeComponent>
+      </template>
+    </FakeComponent>
+  </div>
 </template>
 
 <script>
